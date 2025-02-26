@@ -1,0 +1,6 @@
+<resources>
+    <color name="background_dark">#121212</color>  <!-- Fondo negro elegante -->
+    <color name="gold">#B8860B</color>  <!-- Dorado -->
+    <color name="text_light">#F5F5F5</color>  <!-- Blanco grisáceo para texto -->
+    <color name="input_bg">#1E1E1E</color>  <!-- Fondo oscuro para inputs -->
+</resources>
