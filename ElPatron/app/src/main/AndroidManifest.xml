@@ -13,9 +13,8 @@
         android:theme="@style/Theme.ElPatron"
         tools:targetApi="31">
 
-        <!-- Actividad principal -->
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.theme.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.ElPatron">
@@ -24,16 +23,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- Declaramos ActivityMenu -->
         <activity
             android:name=".ui.theme.ActivityMenu"
             android:exported="false" />
-
-        <!-- Declaramos ActivityPago -->
         <activity
             android:name=".ui.theme.ActivityPago"
             android:exported="false" />
+
     </application>
 
 </manifest>

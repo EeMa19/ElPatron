@@ -1,3 +1,5 @@
+package com.example.elpatron.ui.theme
+
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -13,7 +15,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.view.WindowCompat
 import com.example.elpatron.ui.theme.ElPatronTheme
-import com.example.elpatron.R // Asegúrate de que este R sea el correcto para tus recursos.
+import com.example.elpatron.R
 import com.example.elpatron.ui.theme.ActivityMenu
 
 
