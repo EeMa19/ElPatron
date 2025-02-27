@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="Theme.ElPatron" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Tema corregido para usar Theme.AppCompat -->
+    <style name="Theme.ElPatron" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Colores personalizados de tu colors.xml -->
+        <item name="colorPrimary">@color/gold</item>              <!-- Dorado para elementos principales -->
+        <item name="colorPrimaryDark">@color/background_dark</item>  <!-- Fondo oscuro para barra de estado -->
+        <item name="colorAccent">@color/gold</item>              <!-- Dorado para acentos -->
+        <item name="android:windowBackground">@color/background_dark</item> <!-- Fondo general -->
+        <item name="android:textColor">@color/text_light</item>   <!-- Texto claro -->
+    </style>
 </resources>

@@ -40,7 +40,7 @@ fun Greeting(modifier: Modifier = Modifier) {
     val context = LocalContext.current
 
     AndroidView(factory = { context ->
-        val view = LayoutInflater.from(context).inflate(R.layout.activity_main, null) // Asegúrate de que este layout contiene tu ImageButton
+        val view = LayoutInflater.from(context).inflate(R.layout.activity_main, null)
         val botonCont = view.findViewById<ImageButton>(R.id.botonCont)
 
         botonCont.setOnClickListener {
