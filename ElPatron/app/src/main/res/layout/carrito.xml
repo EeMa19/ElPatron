@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:gravity="center">
 
-            <!-- Platillo 1 con sombra y bordes redondeados -->
+            <!-- Platillo 1 -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -45,7 +45,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginEnd="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/Comida1" />
+                    android:src="@drawable/comida1" />
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -69,7 +69,7 @@
                         android:textColor="@color/text_light"
                         android:textSize="14sp" />
                     <LinearLayout
-                        android:layout_width="match_parent "
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         android:gravity="bottom">
@@ -79,17 +79,16 @@
                             android:text="$$"
                             android:fontFamily="@font/fuente"
                             android:textColor="@color/gold"
-                            android:textSize="18dp"
-                            android:layout_marginBottom=""
-                            />
+                            android:textSize="18dp" />
                         <Button
-                            android:id="@+id/btn_add"
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:background="@drawable/button_add"
-                            android:text="+"
-                            android:layout_marginLeft="170dp"
-                            android:textColor="@android:color/white"/>
+                            android:id="@+id/btn_add_1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/button_add"
+                        android:text="+"
+                        android:layout_marginLeft="170dp"
+                        android:textColor="@android:color/white"/>
+
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -110,7 +109,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginEnd="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/comida2"
+                    android:src="@drawable/comida2" />
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -134,7 +133,7 @@
                         android:textColor="@color/text_light"
                         android:textSize="14sp" />
                     <LinearLayout
-                        android:layout_width="match_parent "
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         android:gravity="bottom">
@@ -144,17 +143,15 @@
                             android:text="$$"
                             android:fontFamily="@font/fuente"
                             android:textColor="@color/gold"
-                            android:textSize="18dp"
-                            android:layout_marginBottom=""
-                            />
+                            android:textSize="18dp" />
                         <Button
-                            android:id="@+id/btn_add"
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:background="@drawable/button_add"
-                            android:text="+"
-                            android:layout_marginLeft="170dp"
-                            android:textColor="@android:color/white"/>
+                            android:id="@+id/btn_add_2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/button_add"
+                        android:text="+"
+                        android:layout_marginLeft="170dp"
+                        android:textColor="@android:color/white"/>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -199,7 +196,7 @@
                         android:textColor="@color/text_light"
                         android:textSize="14sp" />
                     <LinearLayout
-                        android:layout_width="match_parent "
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         android:gravity="bottom">
@@ -209,17 +206,15 @@
                             android:text="$$"
                             android:fontFamily="@font/fuente"
                             android:textColor="@color/gold"
-                            android:textSize="18dp"
-                            android:layout_marginBottom=""
-                            />
+                            android:textSize="18dp" />
                         <Button
-                            android:id="@+id/btn_add"
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:background="@drawable/button_add"
-                            android:text="+"
-                            android:layout_marginLeft="170dp"
-                            android:textColor="@android:color/white"/>
+                            android:id="@+id/btn_add_3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/button_add"
+                        android:text="+"
+                        android:layout_marginLeft="170dp"
+                        android:textColor="@android:color/white"/>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -264,7 +259,7 @@
                         android:textColor="@color/text_light"
                         android:textSize="14sp" />
                     <LinearLayout
-                        android:layout_width="match_parent "
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         android:gravity="bottom">
@@ -274,17 +269,15 @@
                             android:text="$$"
                             android:fontFamily="@font/fuente"
                             android:textColor="@color/gold"
-                            android:textSize="18dp"
-                            android:layout_marginBottom=""
-                            />
+                            android:textSize="18dp" />
                         <Button
-                            android:id="@+id/btn_add"
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:background="@drawable/button_add"
-                            android:text="+"
-                            android:layout_marginLeft="170dp"
-                            android:textColor="@android:color/white"/>
+                            android:id="@+id/btn_add_4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/button_add"
+                        android:text="+"
+                        android:layout_marginLeft="170dp"
+                        android:textColor="@android:color/white"/>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>

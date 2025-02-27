@@ -2,8 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/pastor_more_blur"
-    >
+    android:background="@drawable/pastor_more_blur">
 
     <ImageButton
         android:id="@+id/cowboyButton"
@@ -15,7 +14,7 @@
         android:layout_marginTop="16dp"
         android:background="@drawable/botoncircularback"
         android:contentDescription="Perfil"
-        android:src="@drawable/account_cowboy_hat" />
+        android:src="@drawable/cowboy" />
 
     <EditText
         android:id="@+id/et_search"
@@ -24,7 +23,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp" android:layout_toEndOf="@+id/cowboyButton"
+        android:layout_marginEnd="16dp"
+        android:layout_toEndOf="@+id/cowboyButton"
         android:layout_toStartOf="@+id/shop"
         android:background="@color/background_dark"
         android:fontFamily="@font/fuentee"
@@ -116,6 +116,7 @@
 
         </LinearLayout>
     </HorizontalScrollView>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -144,7 +145,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginEnd="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/Comida1" />
+                    android:src="@drawable/comida1" />
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -158,7 +159,7 @@
                         android:fontFamily="@font/fuentee"
                         android:textColor="@color/gold"
                         android:textSize="18sp"
-                         android:textStyle="bold" />
+                        android:textStyle="bold" />
                     <TextView
                         android:id="@+id/platillo_1_desc"
                         android:layout_width="match_parent"
@@ -168,7 +169,7 @@
                         android:textColor="@color/text_light"
                         android:textSize="14sp" />
                     <LinearLayout
-                        android:layout_width="match_parent "
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         android:gravity="bottom">
@@ -178,17 +179,15 @@
                             android:text="$$"
                             android:fontFamily="@font/fuente"
                             android:textColor="@color/gold"
-                            android:textSize="18dp"
-                            android:layout_marginBottom=""
-                            />
+                            android:textSize="18dp" />
                         <Button
-                            android:id="@+id/btn_add"
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:background="@drawable/button_add"
-                            android:text="+"
-                            android:layout_marginLeft="170dp"
-                            android:textColor="@android:color/white"/>
+                            android:id="@+id/btn_add_1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/button_add"
+                        android:text="+"
+                        android:layout_marginLeft="170dp"
+                        android:textColor="@android:color/white"/>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -209,7 +208,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginEnd="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/comida2"
+                    android:src="@drawable/comida2" />
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -233,7 +232,7 @@
                         android:textColor="@color/text_light"
                         android:textSize="14sp" />
                     <LinearLayout
-                        android:layout_width="match_parent "
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         android:gravity="bottom">
@@ -243,17 +242,15 @@
                             android:text="$$"
                             android:fontFamily="@font/fuente"
                             android:textColor="@color/gold"
-                            android:textSize="18dp"
-                            android:layout_marginBottom=""
-                            />
+                            android:textSize="18dp" />
                         <Button
-                            android:id="@+id/btn_add"
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:background="@drawable/button_add"
-                            android:text="+"
-                            android:layout_marginLeft="170dp"
-                            android:textColor="@android:color/white"/>
+                            android:id="@+id/btn_add_2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/button_add"
+                        android:text="+"
+                        android:layout_marginLeft="170dp"
+                        android:textColor="@android:color/white"/>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -298,7 +295,7 @@
                         android:textColor="@color/text_light"
                         android:textSize="14sp" />
                     <LinearLayout
-                        android:layout_width="match_parent "
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         android:gravity="bottom">
@@ -308,17 +305,15 @@
                             android:text="$$"
                             android:fontFamily="@font/fuente"
                             android:textColor="@color/gold"
-                            android:textSize="18dp"
-                            android:layout_marginBottom=""
-                            />
+                            android:textSize="18dp" />
                         <Button
-                            android:id="@+id/btn_add"
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:background="@drawable/button_add"
-                            android:text="+"
-                            android:layout_marginLeft="170dp"
-                            android:textColor="@android:color/white"/>
+                            android:id="@+id/btn_add_3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/button_add"
+                        android:text="+"
+                        android:layout_marginLeft="170dp"
+                        android:textColor="@android:color/white"/>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -363,7 +358,7 @@
                         android:textColor="@color/text_light"
                         android:textSize="14sp" />
                     <LinearLayout
-                        android:layout_width="match_parent "
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         android:gravity="bottom">
@@ -373,17 +368,15 @@
                             android:text="$$"
                             android:fontFamily="@font/fuente"
                             android:textColor="@color/gold"
-                            android:textSize="18dp"
-                            android:layout_marginBottom=""
-                            />
+                            android:textSize="18dp" />
                         <Button
-                            android:id="@+id/btn_add"
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:background="@drawable/button_add"
-                            android:text="+"
-                            android:layout_marginLeft="170dp"
-                            android:textColor="@android:color/white"/>
+                            android:id="@+id/btn_add_4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/button_add"
+                        android:text="+"
+                        android:layout_marginLeft="170dp"
+                        android:textColor="@android:color/white"/>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -392,4 +385,3 @@
     </ScrollView>
 
 </RelativeLayout>
-

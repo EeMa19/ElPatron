@@ -5,7 +5,7 @@
     android:orientation="horizontal"
     android:background="@drawable/card_background"
     android:padding="10dp"
-    android:margin="5dp">
+    android:layout_margin="5dp">  <!-- Corregido: android:margin -> android:layout_margin -->
 
     <!-- Imagen del platillo -->
     <ImageView
@@ -13,7 +13,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/sample_food" />
+        android:src="@drawable/comida1" />  <!-- Corregido: sample_food -> comida1 -->
 
     <!-- Información del platillo -->
     <LinearLayout
