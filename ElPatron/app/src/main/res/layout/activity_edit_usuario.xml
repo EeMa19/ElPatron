@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginpatron">
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/botoncircularback"
+        android:src="@drawable/iconatras"
+        android:contentDescription="Volver" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/card_background"
+    android:padding="20dp"
+    android:elevation="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/img_perfil"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/iconcambiar"
+            android:scaleType="centerCrop"
+            android:background="@drawable/botoncircularback" />
+
+        <Button
+            android:id="@+id/btn_editar_imagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editar imagen"
+            android:background="@drawable/button_add"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/fuentee"
+            android:padding="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre*"
+        android:textSize="16sp"
+        android:textColor="@color/gold"
+        android:fontFamily="@font/fuentee"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Moebius"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/text_light"
+        android:fontFamily="@font/fuentee"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido*"
+        android:textSize="16sp"
+        android:textColor="@color/gold"
+        android:fontFamily="@font/fuentee"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/et_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="gireaud"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/text_light"
+        android:fontFamily="@font/fuentee"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar correo"
+        android:textSize="16sp"
+        android:textColor="@color/gold"
+        android:fontFamily="@font/fuentee"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/et_cambiar_correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="al00000@uaqcam.mx"
+        android:inputType="textEmailAddress"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/text_light"
+        android:fontFamily="@font/fuentee"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:textSize="16sp"
+        android:textColor="@color/gold"
+        android:fontFamily="@font/fuentee"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/et_contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu nueva contraseña"
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/text_light"
+        android:fontFamily="@font/fuentee"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btn_guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:background="@drawable/button_add"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/fuentee"
+        android:layout_gravity="center_horizontal"
+        android:padding="14dp" />
+
+</LinearLayout>
+
+    </RelativeLayout>
